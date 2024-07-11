@@ -39,7 +39,7 @@ The generated plots will be saved in the `plots` directory.
     source("scripts/analysis.R")
     ```
 
-### PPP and Morphology Raster Mapping
+# PPP and Morphology Raster Mapping
 
 This section of the project involves mapping species richness (ppp) and morphological variables across geographic locations using raster maps. Due to compatibility issues with the current version of R, specific spatial analysis packages (MapTools, rgdal, rgeos) are not available directly from CRAN. However, you can obtain formerly available versions from the CRAN archive:
 
