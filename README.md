@@ -75,9 +75,9 @@ data <- read.csv("data/your_data.csv")
  ```R
 model <- lmer(morphology ~ predation_pressure + (1 | group_variable), data = data)
  ```
-morphology: Dependent variable representing prey morphology.
-predation_pressure: Fixed effect representing the level of predation pressure.
-group_variable: Random effect representing group-level variability (e.g., species, site).
+- morphology: Dependent variable representing prey morphology.
+- predation_pressure: Fixed effect representing the level of predation pressure.
+- group_variable: Random effect representing group-level variability (e.g., species, site).
 
 2. Check model summary:
  ```R
