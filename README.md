@@ -56,7 +56,7 @@ install.packages("rgdal", repos = "https://cran.r-project.org/src/contrib/Archiv
 
 This section describes the procedure for fitting Linear Mixed Models (LMMs) to analyze the influence of potential predation on prey morphology. The analysis involves several steps:
 
-##Data Preparation
+## Data Preparation
 1. Load the necessary libraries:
  ```R
 library(lme4)
@@ -69,7 +69,7 @@ data <- read.csv("data/your_data.csv")
 
 3. Prepare the data for LMM fitting: This may involve cleaning the data, transforming variables, or creating interaction terms as required for your specific analysis.
 
-##Model Fitting
+## Model Fitting
 
 1. Fit a Linear Mixed Model:
  ```R
@@ -87,7 +87,7 @@ summary(model)
  ```R
 plot(model)
  ```
-##Interpretation and Reporting
+## Interpretation and Reporting
 Interpret the results: Assess the coefficients of the fixed effects and the variance components of the random effects to understand the impact of predation pressure on prey morphology.
 
 Report findings: Document your findings in the report, including the model parameters, significance levels, and any relevant plots.
